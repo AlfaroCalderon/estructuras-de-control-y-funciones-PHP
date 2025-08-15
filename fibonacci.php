@@ -1,5 +1,5 @@
 <?php
-
+include 'navbar.php';
 $n = isset($_POST['number']) ? $_POST['number'] : null;
 $flag = isset($n) ? true : false;
 function generarFibonacci($n)
@@ -37,7 +37,6 @@ $fibonacci = generarFibonacci($n);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fibonacci</title>
 </head>
-
 <body>
     <div style="margin: 10px auto; padding: 1rem; background-color: #444; width: 40%; box-sizing: border-box; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); color: #fff;">
         <form action="<?= htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="post" style="width:100%; box-sizing: border-box;">

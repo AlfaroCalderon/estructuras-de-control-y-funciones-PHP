@@ -1,5 +1,5 @@
 <?php
-
+include 'navbar.php';
 $text = isset($_POST['text']) ? $_POST['text'] : null;
 $flag = isset($text) ? true : false;
 function getPalindromo ($text)

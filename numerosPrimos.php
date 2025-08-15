@@ -1,5 +1,5 @@
 <?php
-
+include 'navbar.php';
 $n = isset($_POST['number']) ? $_POST['number'] : null;
 $flag = isset($n) ? true : false;
 function getPrimeNumbers ($n)
