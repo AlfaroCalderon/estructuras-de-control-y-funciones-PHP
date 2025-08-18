@@ -48,7 +48,7 @@ $fibonacci = generarFibonacci($n);
     <?php if ($flag): ?>
         <div style="margin: 10px auto; padding: 1rem; background-color: green; width: 40%; box-sizing: border-box; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); color: #fff;">
 
-            <ul>
+            <ul style="list-style: none; padding: 0;">
                 <?php foreach ($fibonacci as $key => $value): ?>
                     <li><?= $value ?></li>
                 <?php endforeach; ?>
