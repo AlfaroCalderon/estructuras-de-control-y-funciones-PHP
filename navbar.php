@@ -33,7 +33,7 @@
 <body>
 <nav aria-label="Main navigation">
     <ul>
-        <li><a href="fibonacci.php">Fibonacci</a></li>
+        <li><a href="index.php">Fibonacci</a></li>
         <li><a href="numerosPrimos.php">Numeros Primos</a></li>
         <li><a href="palindromo.php">Palindromo</a></li>
     </ul>
